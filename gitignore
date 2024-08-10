@@ -1,0 +1,51 @@
+# Personal Budget Management System
+
+Objective:
+To understand and apply encapsulation in Python by managing private attributes using getters and setters.
+
+Task Breakdown:
+Task 1: Define Budget Category Class
+
+Create a BudgetCategory class:
+This class should have private attributes for the category name (e.g., "Food") and the allocated budget (e.g., $500).
+Use the double underscore prefix to make these attributes private (e.g., __category_name,__allocated_budget).
+Initialize these attributes in the constructor (__init__).
+Task 2: Implement Getters and Setters
+
+Getter Methods:
+Create methods to return the values of the private attributes.
+Setter Methods:
+Implement methods to modify the private attributes, including validation (e.g., the budget must be a positive number).
+Task 3: Add Budget Functionality
+
+Expense Management:
+Implement a method (add_expense) to subtract an expense from the allocated budget. Ensure the expense is a positive number and does not exceed the remaining budget.
+Task 4: Display Budget Details
+
+Display Method:
+Create a method (display_category_summary) to show the category name, the original budget, and the remaining budget after expenses.
+
+E-commerce Product Catalog System
+
+Objective:
+To explore inheritance and method overriding by managing products with both common and specific attributes.
+
+Task Breakdown:
+Task 1: Create Base Product Class
+
+Product Class:
+This class should have attributes like product_id, name, and price.
+Include a method (display_info) to print these details.
+Task 2: Implement Subclasses for Specific Products
+
+Book Class:
+Inherit from Product and add an author attribute.
+Initialize this attribute along with the inherited attributes in the constructor.
+Task 3: Override Display Method in Subclasses
+
+Override display_info Method:
+In the Book class, override the display_info method to include the author information along with the inherited attributes.
+Task 4: Test Product Catalog Functionality
+
+Instantiate and Test:
+Create instances of the Book class and call their display_info methods to ensure the correct display of details.
